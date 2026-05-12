@@ -3,19 +3,19 @@
 # 🔍 Commit Analyser
 
 ```
-  ██████╗ ██████╗ ███╗   ███╗███╗   ███╗██╗████████╗
- ██╔════╝██╔═══██╗████╗ ████║████╗ ████║██║╚══██╔══╝
- ██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║   
- ██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║   
- ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║██║   ██║   
-  ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝   
-
- █████╗ ███╗   ██╗ █████╗ ██╗  ██╗   ██╗███████╗███████╗██████╗ 
-██╔══██╗████╗  ██║██╔══██╗██║  ╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗
-███████║██╔██╗ ██║███████║██║   ╚████╔╝ ███████╗█████╗  ██████╔╝
-██╔══██║██║╚██╗██║██╔══██║██║    ╚██╔╝  ╚════██║██╔══╝  ██╔══██╗
-██║  ██║██║ ╚████║██║  ██║███████╗██║   ███████║███████╗██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝
+            ██████╗ ██████╗ ███╗   ███╗███╗   ███╗██╗████████╗
+           ██╔════╝██╔═══██╗████╗ ████║████╗ ████║██║╚══██╔══╝
+           ██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║   
+           ██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║   
+           ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║██║   ██║   
+            ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝   
+          
+           █████╗ ███╗   ██╗ █████╗ ██╗  ██╗   ██╗███████╗███████╗██████╗ 
+          ██╔══██╗████╗  ██║██╔══██╗██║  ╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗
+          ███████║██╔██╗ ██║███████║██║   ╚████╔╝ ███████╗█████╗  ██████╔╝
+          ██╔══██║██║╚██╗██║██╔══██║██║    ╚██╔╝  ╚════██║██╔══╝  ██╔══██╗
+          ██║  ██║██║ ╚████║██║  ██║███████╗██║   ███████║███████╗██║  ██║
+          ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝
 ```
 
 ### **GitHub Organisation Repository Commit Analyser**
@@ -198,22 +198,22 @@ python commit_analyser.py
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│  1  🎨  ASCII art banner printed (v2.1 · Saurabh Jain)    │
-│  2  🔑  Token read silently via gh auth token              │
-│  3  ✅  GitHub identity verified and displayed             │
-│  4  🏢  All organisations auto-discovered                  │
+│  1  🎨  ASCII art banner printed (v2.1 · Saurabh Jain)      │
+│  2  🔑  Token read silently via gh auth token               │
+│  3  ✅  GitHub identity verified and displayed              │
+│  4  🏢  All organisations auto-discovered                   │
 │                                                             │
-│  5  🔁  For each organisation:                             │
+│  5  🔁  For each organisation:                              │
 │         📦  All repos fetched (public + private + archived) │
-│         📅  Latest commit fetched per repo                 │
-│         ⏰  Days since last commit calculated              │
-│         🔴  Stale flag set if inactive > 180 days          │
-│         📁  Archived flag read from GitHub API             │
+│         📅  Latest commit fetched per repo                  │
+│         ⏰  Days since last commit calculated               │
+│         🔴  Stale flag set if inactive > 180 days           │
+│         📁  Archived flag read from GitHub API              │
 │                                                             │
-│  6  🌈  Colour-coded results table printed                 │
-│  7  💾  Excel file written to current directory            │
-│  8  📊  Per-org summary breakdown table printed            │
-│  9  🃏  Stat cards + final panel with runtime              │
+│  6  🌈  Colour-coded results table printed                  │
+│  7  💾  Excel file written to current directory             │
+│  8  📊  Per-org summary breakdown table printed             │
+│  9  🃏  Stat cards + final panel with runtime               │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
