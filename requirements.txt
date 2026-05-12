@@ -1,0 +1,11 @@
+# gh_org_repos.py
+# pip install -r requirements.txt
+
+requests>=2.31.0
+rich>=13.7.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# External CLI (not pip):
+#   gh — https://cli.github.com
+#   Run once: gh auth login
