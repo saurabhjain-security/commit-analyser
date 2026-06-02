@@ -190,6 +190,9 @@ python commit_analyser.py
 
 > ✅ **That's the only command.** No arguments. No config. The script handles everything.
 
+<img width="3002" height="970" alt="image" src="https://github.com/user-attachments/assets/7a30bef7-6924-41f1-90f4-78d89bbeac73" />
+
+
 ---
 
 ### 🔄 What happens step by step
